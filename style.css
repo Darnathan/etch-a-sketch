@@ -1,0 +1,18 @@
+html,
+body {
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.grid-16x16 {
+  display: grid;
+
+  width: 160px;
+  grid-gap: 1px;
+  grid-template-columns: repeat(16, 10px);
+  grid-template-rows: repeat(16, 10px);
+}
+
+.canvas {
+  background-color: black;
+}
